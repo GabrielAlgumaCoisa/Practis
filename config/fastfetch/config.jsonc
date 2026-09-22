@@ -1,0 +1,59 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+  "logo": {
+  "type": "file-raw",
+  "source": "/home/gabo/Code/Practis/assets/branding/logo.txt",
+  "padding": {
+    "right": 2
+  }
+},
+
+  "display": {
+    "separator": "  → "
+  },
+
+  "modules": [
+    "title",
+    "separator",
+
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+
+    "separator",
+
+    "shell",
+    "terminal",
+    "terminalfont",
+    "display",
+    "de",
+    "wm",
+    "wmtheme",
+
+    "separator",
+
+    "theme",
+    "icons",
+    "font",
+    "cursor",
+
+    "separator",
+
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "battery",
+
+    "separator",
+
+    "localip",
+    "locale",
+
+    "break",
+    "colors"
+  ]
+}

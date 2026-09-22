@@ -6,7 +6,7 @@ BROWSER      = "helium-browser"
 EDITOR       = "code"
 CALCULATOR   = "gnome-calculator"
 LAUNCHER     = "rofi -show drun"
-MUSIC        = "spotify"
+MUSIC        = "spotify-launcher"
 WALLPAPER    = "waypaper"
 -- Monitors
 MONITOR1 = ""
