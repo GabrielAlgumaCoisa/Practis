@@ -10,7 +10,7 @@ ui_scale = 1.00
 [bar.default]
 start = ["workspaces", "spacer_1", "group:sysinfo"]
 center = ["clock_left", "control-center", "clock_right"]
-end = ["media", "spacer_1", "network", "volume", "battery", "notifications"]
+end = ["weather", "spacer_1", "media", "spacer_1", "network", "volume", "battery", "notifications"]
 
 thickness = 24
 margin_edge = 2
@@ -94,9 +94,16 @@ font_weight = 700
 font_scale = 0.5
 color = "secondary"
 
+[widget.weather]
+show_condition = false
+show_temperature = true
+max_length = 40
+color = "secondary"
+scale = 0.5
+
 [widget.media]
 hide_when_no_media = true
-title_scroll = "on_hover"
+album_art_only = true
 
 [widget.network]
 color = "secondary"
