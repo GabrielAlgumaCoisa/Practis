@@ -59,13 +59,26 @@ hl.window_rule({
         class = "^(org\\.kde\\.dolphin)$",
         title = "negative:^(Moving.*|Create New.*|Extract.*|Compress.*|Copying.*|Progress.*|Configure.*|Properties.*|Choose\\sApplication.*)$",
     },
-    float = true,
+    float = false,
     size = { "max(monitor_w, monitor_h)*0.50", "min(monitor_w, monitor_h)*0.55" },
     move = {
         "max(20, min(cursor_x - (window_w*0.50), monitor_w - window_w + 20))", -- X axis clamping
         "max(20, min(cursor_y - 50, monitor_h - window_h + 20))" -- Y axis clamping
     },
 })
+
+hl.window_rule({
+    match = {
+        class = "^(waypaper)$",
+    },
+    float = true,
+    center = true,
+    size = {
+        "max(monitor_w, monitor_h)*0.55",
+        "min(monitor_w, monitor_h)*0.70",
+    },
+})
+
 
 -- Opacity Overrides
 local terminals = "^(kitty|ghostty|[Kk]onsole|Alacritty|gnome-terminal|xfce[0-9]?-terminal)$"
