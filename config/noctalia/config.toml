@@ -8,20 +8,20 @@ ui_scale = 1.00
 # ---------------------------------------------------
 
 [bar.default]
-start = ["workspaces", "spacer_1", "group:sysinfo"]
+start = ["workspaces", "group:sysinfo"]
 center = ["clock_left", "control-center", "clock_right"]
-end = ["weather", "spacer_1", "media", "spacer_1", "network", "volume", "battery", "notifications"]
+end = ["media", "spacer_1", "weather", "network", "volume", "battery", "notifications"]
 
 thickness = 24
-margin_edge = 2
-margin_ends = 2
+margin_edge = 0
+margin_ends = 0
 scale = 1.5
 
 concave_edge_corners = true
 radius_top_left = 0
 radius_top_right = 0
-radius_bottom_left = 10
-radius_bottom_right = 10
+radius_bottom_left = 2
+radius_bottom_right = 2
 
 [[bar.default.capsule_group]]
 id = "sysinfo"
@@ -75,7 +75,7 @@ type = "clock"
 format = "{:%H}"
 font_weight = 700
 font_scale = 0.5
-color = "secondary"
+color = "primary"
 
 [widget.control-center]
 custom_image = "/home/gabo/Code/Practis/assets/branding/practis-mono-light.svg"
@@ -92,13 +92,13 @@ type = "clock"
 format = "{:%M}"
 font_weight = 700
 font_scale = 0.5
-color = "secondary"
+color = "primary"
 
 [widget.weather]
 show_condition = false
 show_temperature = true
 max_length = 40
-color = "secondary"
+color = "primary"
 scale = 0.5
 
 [widget.media]
@@ -106,12 +106,12 @@ hide_when_no_media = true
 album_art_only = true
 
 [widget.network]
-color = "secondary"
+color = "primary"
 show_label = false
 scale = 0.5
 
 [widget.volume]
-color = "secondary"
+color = "primary"
 scale = 0.5
 
 [widget.battery]
@@ -119,10 +119,11 @@ display_mode = "glyph"
 show_label = true
 label_content = "time"
 hide_when_full = false
+color = "primary"
 scale = 0.5
 
 [widget.notifications]
-color = "secondary"
+color = "primary"
 scale = 0.5
 
 # ---------- System Monitor ----------
@@ -131,16 +132,19 @@ scale = 0.5
 type = "sysmon"
 stat = "cpu_usage"
 glyph = "cpu-2"
+color = "primary"
 scale = 0.5
 
 [widget.temp]
 show_value = false
+color = "primary"
 scale = 0.5
 
 [widget.sysmon_ram]
 type = "sysmon"
 stat = "ram_used"
 glyph = "memory"
+color = "primary"
 scale = 0.5
 
 # ---------------------------------------------------
