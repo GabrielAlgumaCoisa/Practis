@@ -12,10 +12,10 @@ start = ["workspaces", "group:sysinfo"]
 center = ["clock_left", "control-center", "clock_right"]
 end = ["media", "spacer_1", "weather", "network", "volume", "battery", "notifications"]
 
-thickness = 24
+thickness = 36
 margin_edge = 0
 margin_ends = 0
-scale = 1.5
+scale = 2
 
 concave_edge_corners = true
 radius_top_left = 0
