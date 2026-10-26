@@ -8,6 +8,7 @@ CALCULATOR   = "gnome-calculator"
 LAUNCHER     = "rofi -show drun"
 MUSIC        = "spotify-launcher"
 WALLPAPER    = "waypaper"
+TXT          = "obsidian"
 -- Monitors
 MONITOR1 = ""
 MONITOR2 = ""
