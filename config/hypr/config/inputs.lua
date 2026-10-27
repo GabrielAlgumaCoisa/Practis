@@ -11,6 +11,11 @@ hl.config({
     -- },
 })
 
+hl.device({
+    name = "tpps/2-elan-trackpoint",
+    sensitivity = 0.5
+})
+
 hl.gesture({ fingers = 4, direction = "horizontal", action = "workspace" })
 hl.gesture({ fingers = 3, direction = "down",       action = "close" })
 hl.gesture({ fingers = 3, direction = "up",         action = "fullscreen" })
