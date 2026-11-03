@@ -10,7 +10,7 @@ ui_scale = 1.00
 [bar.default]
 start = ["workspaces", "group:sysinfo", "active_window"]
 center = ["clock_left", "control-center", "clock_right"]
-end = ["date", "media", "spacer_1", "weather", "network", "volume", "battery", "notifications"]
+end = ["media", "spacer_1", "date", "weather", "network", "volume", "battery", "notifications"]
 
 thickness = 36
 margin_edge = 0
