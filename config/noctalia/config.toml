@@ -10,7 +10,7 @@ ui_scale = 1.00
 [bar.default]
 start = ["workspaces", "group:sysinfo", "active_window"]
 center = ["clock_left", "control-center", "clock_right"]
-end = ["media", "spacer_1", "weather", "network", "volume", "battery", "notifications"]
+end = ["date", "media", "spacer_1", "weather", "network", "volume", "battery", "notifications"]
 
 thickness = 36
 margin_edge = 0
@@ -129,6 +129,12 @@ color = "primary"
 scale = 0.5
 
 [widget.notifications]
+color = "primary"
+scale = 0.5
+
+[widget.date]
+type = "clock"
+format = "{:%a %d/%m}"
 color = "primary"
 scale = 0.5
 
