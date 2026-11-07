@@ -12,11 +12,14 @@ start = ["workspaces", "group:sysinfo", "group:active"]
 center = ["clock_left", "control-center", "clock_right"]
 end = ["group:media", "group:world", "group:systatus"]
 
+reserve_space = false
+smart_auto_hide = true
+
 thickness = 36
 margin_edge = 0
 margin_ends = 400
 scale = 2
-background_opacity = 0.50
+background_opacity = 0.66
 
 
 concave_edge_corners = true
