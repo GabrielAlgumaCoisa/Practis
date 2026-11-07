@@ -10,4 +10,10 @@ wayland workspace focused on intentional design
     - every graphical tool should have a terminal altternative
     - the repository os the only source this dotfiles have
 
+# Links
+
+this project is based on:
+
+    - [Noctalia](https://noctalia.dev/)
+    - [CachyOS](https://cachyos.org/)
 
