@@ -14,6 +14,6 @@ wayland workspace focused on intentional design
 
 this project is based on:
 
-    - [Noctalia](https://noctalia.dev/)
-    - [CachyOS](https://cachyos.org/)
+- [Noctalia](https://noctalia.dev/)
+- [CachyOS](https://cachyos.org/)
 
