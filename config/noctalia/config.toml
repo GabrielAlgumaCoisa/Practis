@@ -71,6 +71,7 @@ inactive_pill_size = 1.0
 pill_scale = 0.50
 
 [widget.active_window]
+
 icon_size = 15
 title_scroll = "on_hover"
 display = "icon_only"
