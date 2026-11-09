@@ -9,17 +9,19 @@ ui_scale = 1.00
 
 [bar.default]
 start = ["workspaces", "group:sysinfo", "group:active"]
-center = ["clock_left", "control-center", "clock_right"]
+center = ["group:clock_menu"]
 end = ["group:media", "group:world", "group:systatus"]
 
 reserve_space = false
 smart_auto_hide = true
+show_on_workspace_switch = false
 
 thickness = 36
 margin_edge = 0
 margin_ends = 400
 scale = 2
-background_opacity = 0.66
+background_opacity = 0.5
+ignore_alpha = 0.0
 
 
 concave_edge_corners = true
@@ -27,6 +29,14 @@ radius_top_left = 25
 radius_top_right = 25
 radius_bottom_left = 25
 radius_bottom_right = 25
+
+[[bar.default.capsule_group]]
+id = "clock_menu"
+members = ["clock_left", "control-center", "clock_right"]
+fill = "on_secondary"
+border = ""
+padding = 10.0
+opacity = 1.0
 
 [[bar.default.capsule_group]]
 id = "sysinfo"
