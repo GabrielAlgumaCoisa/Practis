@@ -21,7 +21,6 @@ margin_edge = 0
 margin_ends = 400
 scale = 2
 background_opacity = 0.01
-ignore_alpha = 0.0
 
 
 concave_edge_corners = true
