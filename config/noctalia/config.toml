@@ -213,3 +213,22 @@ scale = 0.5
 
 [system.monitor]
 gpu_poll_seconds = 2
+
+# ---------------------------------------------------
+# DESKTOP WIDGETS
+# ---------------------------------------------------
+
+[desktop_widgets]
+enabled = true
+
+[desktop_widgets.widget.media_main]
+type = "media_player"
+output = "eDP-1"
+cx = 960.0
+cy = 800.0
+
+[desktop_widgets.widget.media_main.settings]
+layout = "vertical"
+hide_when_no_media = false
+album_art_background = false
+album_art_blur = 12
